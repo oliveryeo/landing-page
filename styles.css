@@ -2,18 +2,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+}
+
+.header, .footer {
+    padding: 24px 160px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-    padding: 24px 48px;
 }
 
 .header-logo {
     font-size: 24px;
+    font-weight: 800; /* Extra Bold */
     color: #F9FAF8;
 }
 
@@ -25,6 +31,48 @@ body {
 
 .top-content {
     flex: 1;
+    background-color: #1F2937;
+    padding: 0 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.top-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.top-image {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #BEBEBE; 
+    flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800; /* Extra Bold */
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    color: #E5E7EB;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    align-self: flex-start; /* Prevent button background color from stretching */
+    border-radius: 6px; /* Rounds the button */
 }
 
 .middle-content {
