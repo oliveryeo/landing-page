@@ -32,20 +32,20 @@ body {
 .top-content {
     flex: 1;
     background-color: #1F2937;
-    padding: 0 160px;
+    padding: 32px 160px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 48px;
 }
 
-.top-texts {
+.top-content .top-texts {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.top-image {
+.top-content .top-image {
     width: 500px;
     height: 200px;
     display: flex;
@@ -56,20 +56,20 @@ body {
     flex-shrink: 0; /* Prevents image from shrinking */
 }
 
-.main-text {
+.top-content .main-text {
     font-size: 48px;
     font-weight: 800; /* Extra Bold */
     color: #F9FAF8;
 }
 
-.secondary-text {
+.top-content .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.button {
+.top-content .button {
     color: #E5E7EB;
-    padding: 8px 24px;
+    padding: 8px 30px;
     background-color: #3882F6;
     align-self: flex-start; /* Prevent button background color from stretching */
     border-radius: 6px; /* Rounds the button */
